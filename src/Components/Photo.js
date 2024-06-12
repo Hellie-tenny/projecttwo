@@ -1,9 +1,9 @@
 import React from "react"
 
-const Photo = () => {
+const Photo = (props) => {
     return(
-        <div>
-            This is the image component!
+        <div className="photo">
+            {/* {props.photo.id} */}
         </div>
     );
 }
