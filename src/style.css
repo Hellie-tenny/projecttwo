@@ -14,8 +14,29 @@
   width: 100%;
 }
 
+a {
+  background-color: black;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
 .App header {
   background-color: rgb(115, 255, 190);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.App header a {
+  background-color: black;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5rem;
 }
 .App .container {
   padding: 1rem;
@@ -23,6 +44,22 @@
 .App .container .photo {
   width: 100px;
   border: 2px solid black;
+}
+.App .container .photos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0.5rem;
+}
+.App .container .photos .photoCard {
+  width: 100%;
+  min-height: 50px;
+  margin: 1rem;
+}
+.App .container .photos .photoCard img {
+  width: 100%;
+}
+.App .container .photos .photoCard p {
+  margin: 2rem 0;
 }
 .App footer {
   background-color: #000;

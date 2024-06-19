@@ -1,23 +1,20 @@
 import Photo from "./Components/Photo";
-import photos from "./photos.json";
 import "./style.css";
+import Admin from "./pages/Admin";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
 
-  console.log(photos)
   return (
     <div className="App">
-      <header>Rocket Gallery</header>
-      <div className='container'>
-        {photos.map(() => {
-          <Photo />
-        })}
-
-        
-      </div>
-      <footer>
-        Rocket Gallery &copy; 2024
-      </footer>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/Admin" element={<Admin/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
