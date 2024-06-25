@@ -13,6 +13,7 @@
   min-height: 100vh;
   width: 100%;
 }
+// global styles
 a{
   background-color: black;
   padding: 0.5rem;
@@ -21,6 +22,12 @@ a{
   text-decoration: none;
   border-radius: 0.5rem;
 }
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+///////////////////////////////////////////////////////////
 .App {
   header {
     background-color: rgb(115, 255, 190);
@@ -65,11 +72,5 @@ a{
         }
       }
     }
-  }
-
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
   }
 }

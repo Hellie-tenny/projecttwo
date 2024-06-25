@@ -23,6 +23,12 @@ a {
   border-radius: 0.5rem;
 }
 
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+}
+
 .App header {
   background-color: rgb(115, 255, 190);
   display: flex;
@@ -60,9 +66,4 @@ a {
 }
 .App .container .photos .photoCard p {
   margin: 2rem 0;
-}
-.App footer {
-  background-color: #000;
-  color: #fff;
-  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */
