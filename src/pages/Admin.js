@@ -8,7 +8,7 @@ const Admin = () => {
 
     const uploadFile = (e) => {
          setFile(e.target.files[0]);
-         console.log('File had been selected', file)
+         console.log('File has been selected', file)
     }
 
     const handleUpload =  async() => {
@@ -20,7 +20,7 @@ const Admin = () => {
         try{
             const res = await axios.post('http://localhost:5000/uploads', fd, {
                 headers: {
-                    // 'Content-Type' : 'multipart/form-data',
+                    'Content-Type' : 'multipart/form-data',
                 },
             });
             console.log('File uploaded successifully!');
