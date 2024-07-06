@@ -1,47 +1,58 @@
 [
     {
         "id": 1,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 2,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     {
         "id": 3,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     },
     
     {
         "id": 4,
-        "name" : "Me at the beach!"
+        "file": "",
+        "caption" : "Me at the beach!"
     }
 ]

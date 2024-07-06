@@ -14,13 +14,18 @@
   width: 100%;
 }
 // global styles
-a{
+a, button{
   background-color: black;
   padding: 0.5rem;
   color: #fff;
   font-weight: 600;
   text-decoration: none;
   border-radius: 0.5rem;
+}
+a:hover{
+  background-color: rgb(115, 255, 190);
+  color: black;
+  cursor: pointer;
 }
 footer {
   background-color: #000;
@@ -43,6 +48,11 @@ footer {
       font-weight: 600;
       text-decoration: none;
       border-radius: 0.5rem;
+    }
+    a:hover{
+      background-color: rgb(115, 255, 190);
+      color: black;
+      cursor: pointer;
     }
   }
 
@@ -73,4 +83,15 @@ footer {
       }
     }
   }
+  .admin{
+    .admin-container{
+      padding: 2rem;
+
+      button{
+        margin: 1rem;
+        border-radius: 0;
+      }
+    }
+  }
+
 }
