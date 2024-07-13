@@ -1,58 +1,27 @@
 [
-    {
-        "id": 1,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 2,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    {
-        "id": 3,
-        "file": "",
-        "caption" : "Me at the beach!"
-    },
-    
-    {
-        "id": 4,
-        "file": "",
-        "caption" : "Me at the beach!"
-    }
+  {
+    "id": 1,
+    "file": ".../uploads/1720290393187-IMG_20240308_085811_263.jpg",
+    "caption": "This is the caption"
+  },
+  {
+    "id": 1,
+    "file": "../uploads/1720290393187-IMG_20240308_085811_263.jpgg",
+    "caption": "This is the caption"
+  },
+  {
+    "id": 1,
+    "file": "../uploads/1720290393187-IMG_20240308_085811_263.jpg",
+    "caption": "This is the caption"
+  },
+  {
+    "id": 1,
+    "file": "../uploads/1720290393187-IMG_20240308_085811_263.jpg",
+    "caption": "This is the caption"
+  },
+  {
+    "id": 1,
+    "file": "../uploads/1720290393187-IMG_20240308_085811_263.jpg",
+    "caption": "This is the caption"
+  }
 ]
